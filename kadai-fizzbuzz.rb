@@ -1,4 +1,5 @@
-   (1..100).each do |n|
+def fizzbuzz(num)
+    (1..100).each do |n|
         if n % 15 == 0
             puts "FizzBuzz"
         elsif n % 3 == 0
@@ -9,3 +10,4 @@
             puts n
         end
     end
+end
